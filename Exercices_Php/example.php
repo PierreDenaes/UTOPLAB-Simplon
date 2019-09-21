@@ -5,19 +5,15 @@ $ma_variable = ".les poneys c'est le kiff"."\n";
 $i = 1;
 if (php_sapi_name() == "cli") {
 	while($i < 3001) {
-
-			
-			//echo $i ."party poneys."."n";
 			echo ($i.$ma_variable);
 			$i++;
-		}} else {
-			while($i < 3001) {
-
-			
-			//echo $i ."party poneys."."n";
-			echo ($i.$ma_variable."<br>");
-			$i++;
-		}}
+		}
+		} else {
+				while($i < 3001) {
+					echo ($i.$ma_variable."<br>");
+					$i++;
+				}
+			}
 $temps_execution = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
 echo $temps_execution;
 ?>
