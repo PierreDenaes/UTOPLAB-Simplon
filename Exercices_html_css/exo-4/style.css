@@ -1,1 +1,93 @@
-style.css
+@import url("https://fonts.googleapis.com/css?family=Handlee|Roboto&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+/*MENU*/
+.backgNav {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/UTOPLAB-Simplon/master/Exercices_html_css/exo-4/background_pattern.png");
+  padding: 3% 5% 3% 8%;
+}
+nav ul li {
+  margin-right: 4%;
+  text-align: left;
+}
+.flex-fill {
+  flex: 1;
+}
+.logo-center {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+.logo {
+  width: 100px;
+}
+.nav-link {
+  line-height: 1;
+}
+.padNav {
+  padding-top: 12%;
+}
+.home-menu {
+  border-bottom: 5px solid #f76801;
+  font-weight: bold;
+}
+.company-menu {
+  border-bottom: 5px solid #fbd049;
+  font-weight: bold;
+}
+.portfolio-menu {
+  border-bottom: 5px solid #9ec64b;
+  font-weight: bold;
+}
+.product-menu {
+  border-bottom: 5px solid #3f91c1;
+  font-weight: bold;
+}
+.blog-menu {
+  border-bottom: 5px solid #c078d0;
+  font-weight: bold;
+}
+/*photo band*/
+.divider {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+}
+.rowMargin {
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.imgRow1 {
+  border: 2px solid #f0f0f0;
+  padding: 10px;
+}
+/*Middle Sentence*/
+.divider2 {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+}
+.middleSentence {
+  width: 100%;
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/UTOPLAB-Simplon/master/Exercices_html_css/exo-4/background_pattern.png");
+  text-align: center;
+}
+.middleS {
+  padding: 3% 8% 3% 8%;
+  font-size: 1.5em;
+  font-family: "Handlee", cursive;
+  color: #6f6f6f;
+  font-weight: bold;
+}
+.lineColor {
+  text-decoration: underline;
+  text-decoration-color: #ea7927;
+}
