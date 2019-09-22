@@ -16,12 +16,13 @@
     <span class="navbar-toggler-icon"></span>
   </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav justify-content-center d-flex flex-fill">
+        <ul class="navbar-nav justify-content-end 
+                   flex-fill">
           <li class="nav-item">
             <a class="nav-link home-menu active" href="#">HOME</a>
             <a class="nav-link padNav" href="#">Menu style</a>
-            <a class="nav-link" href="#">Sliders</a>
-            <a class="nav-link" href="#">More Features</a>
+            <a class="nav-link padNav2" href="#">Sliders</a>
+            <a class="nav-link padNav2" href="#">More Features</a>
             <ul class="navbar-nav">
               <li class="nav-item">
 
@@ -31,26 +32,26 @@
           <li class="nav-item">
             <a class="nav-link company-menu active" href="#">COMPANY</a>
             <a class="nav-link padNav" href="#">About Us</a>
-            <a class="nav-link" href="#">Contact Us</a>
-            <a class="nav-link" href="#">Custom Pages</a>
+            <a class="nav-link padNav2" href="#">Contact Us</a>
+            <a class="nav-link padNav2" href="#">Custom Pages</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active portfolio-menu" href="#">PORTFOLIO</a>
             <a class="nav-link padNav" href="#">Two Columns</a>
-            <a class="nav-link" href="#">Three Columns</a>
-            <a class="nav-link" href="#">More Layout</a>
+            <a class="nav-link padNav2" href="#">Three Columns</a>
+            <a class="nav-link padNav2" href="#">More Layout</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active product-menu" href="#">PRODUCT</a>
-            <a class="nav-link padNav" href="#">Product Category 1</a>
-            <a class="nav-link" href="#">Product Category 2</a>
-            <a class="nav-link" href="#">Custom Template</a>
+            <a class="nav-link padNav3" href="#">Product Category 1</a>
+            <a class="nav-link padNav2" href="#">Product Category 2</a>
+            <a class="nav-link padNav2" href="#">Custom Template</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active blog-menu" href="#">BLOG</a>
             <a class="nav-link padNav" href="#">Post Types</a>
-            <a class="nav-link" href="#">Latest News</a>
-            <a class="nav-link" href="#">Custom Blog</a>
+            <a class="nav-link padNav2" href="#">Latest News</a>
+            <a class="nav-link padNav2" href="#">Custom Blog</a>
           </li>
         </ul>
       </div>
@@ -70,13 +71,62 @@
   </div>
   <div class="divider"></div>
   <!--Section-->
-  <div class="row">
-    <div class="col-12 col-sm-6 col-md-6 col-lg-3"></div>
-    <div class="col-12 col-sm-6 col-md-6 col-lg-3"></div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
+  <div class="row rowMargin2">
+    <div class="col-12 col-sm-12 col-md-5 col-lg-2 article1">
+      <article>
+        <h3>WELCOME</h3>
+        <h6>Lorem ipsus dolor sit amet</h6>
+        <img src="https://raw.githubusercontent.com/PierreDenaes/UTOPLAB-Simplon/master/Exercices_html_css/exo-4/projet_css_image_fish.png" alt="image de poisson" class="fishPicture">
+        <p class="pArticle1">Novi debent autem Indigna multos teneros digni amici ferunt veterrima quaeque debet sicut esse homine Indigna ea autem veterrima novi.</p>
+        <a href="#" class="nav readMore">read more &#8594</a>
+      </article>
+    </div>
+    <div class="col-12 col-sm-12 col-md-5 col-lg-3 article2">
+      <article>
+        <h3>LATEST WORKS</h3>
+        <h6>sub title for home page box</h6>
+        <p class="pArticle2">Damnabatur vel partes multatione aut damnabatur esset modum aut vel inimico delatus honoratorum sufficiente nobilis onere inimico multatione hostiles militarium.</p>
+        <h3>OUR PRODUCTS</h3>
+        <h6>sub title for home page box</h6>
+        <p class="pArticle3">Damnabatur vel partes multatione aut damnabatur esset modum aut vel inimico delatus honoratorum sufficiente nobilis onere inimico multatione hostiles militarium.</p>
+      </article>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-5 article3">
+      <article class="videoArticle">
+        <h3>FLEXIBLE PAGES</h3>
+        <h6>sub title for home page box</h6>
+        <iframe width="550" height="310" src="https://www.youtube.com/embed/v1PeTDrw6OY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+    </div>
   </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!--CONTACT-->
+  <div class="divider2"></div>
+  <div class="row contactRow">
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <h5>CONTACT DETAILS</h5>
+      <ul class="ulContact">
+      <li class="pContact"><i class="fas fa-home"></i> 63739 street lorem ipsum<br><span class="spanCity">City, Country<span></li>
+      <li class="pContact"><i class="fas fa-headset"></i> +1 123 312 32 23</li>
+      <a href="#" class="infoComp"><i class="fas fa-envelope"></i>info@company.com</a><br>
+      <a href="#" class="supportComp"><i class="fas fa-life-ring"></i>support@company.com</a>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <h5>TWITTER FEEDS</h5>
+      <h6>about 5 hours ago</h6>
+      <p>Pragmatic, pratical font sizing in<br>Css <a href="#" class="infoComp">https://t.co/K6mDVzL4</a></p>
+    </div>
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <h5>RECENT POSTS</h5>
+      <h6>01 Mar 2012</h6>
+      <span style="font-weight:bold">Gallery Post Type</span><br>
+      <p>Eos altero est quos modo qui Cum benevola non modo memoriam quodam eos propter est quodam M' Curi quos altero.</p>
+    </div>
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <h5>WIDGETIZED FOOTER</h5>
+      <p class="lastP">Tandem primum ea cum et minantium primum frangerentur animo factu pro ut summo frangerentur tunc honore frangerentur tunc id sollicitas </p>
+    </div>
+  </div>
+
 </body>
 </html>
