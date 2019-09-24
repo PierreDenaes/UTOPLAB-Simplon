@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+.container {
+  text-align: center;
+  width: 50%;
+}
+h1 {
+  margin: 5% auto;
+}
+.appName {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.answerType1, .answerType2 {
+  margin: 5% auto;
+  width: 100%
+}
+#random-name, #completList {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  border: 2px solid black;
+}
+#answerType1, #answerType2 {
+  width: 50%;
+  height: 100%;
+}
+#random-name, #completList {
+  margin: 5%;
+}
+li {
+  list-style: none;
+  text-align: left;
+}
