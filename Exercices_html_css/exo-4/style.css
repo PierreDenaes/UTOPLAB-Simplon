@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Handlee|Roboto&display=swap");
+@font-face {
+  font-family: 'Roboto', 'Handlee';
+  font-display: auto;
+}
 body {
   padding: 0;
   margin: 0;
